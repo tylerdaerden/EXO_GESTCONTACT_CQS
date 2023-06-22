@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{eaeb1159-c46e-419f-bd4c-22cd80f82576}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -57,8 +57,16 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Table" />
+    <Folder Include="Procedures" />
+    <Folder Include="Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Utilisateur.sql" />
+    <Build Include="Procedures\CSP_Register.sql" />
+    <Build Include="Functions\CSF_GetPreSalt.sql" />
+    <Build Include="Functions\CSF_GetPostSalt.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Gest_ContactsDatabase.publish.xml" />
   </ItemGroup>
 </Project>

@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Web App", "02 Web App", 
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Gest_ContactsDatabase", "Gest_ContactsDatabase\Gest_ContactsDatabase.sqlproj", "{EAEB1159-C46E-419F-BD4C-22CD80F82576}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gest_Contacts.Model.Dal", "Gest_Contacts.Model.Dal\Gest_Contacts.Model.Dal.csproj", "{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EAEB1159-C46E-419F-BD4C-22CD80F82576} = {ABEE84B3-8238-49CA-9E73-3F770269618F}
+		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A} = {C9036FB0-EA94-4052-8982-51BFF463EF2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A2E57DF-A885-41A3-A159-7778BA16D05E}

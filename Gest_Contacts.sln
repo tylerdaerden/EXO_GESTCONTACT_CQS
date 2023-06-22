@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 DataBase", "00 DataBase", "{ABEE84B3-8238-49CA-9E73-3F770269618F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Models", "01 Models", "{C9036FB0-EA94-4052-8982-51BFF463EF2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 Tools", "99 Tools", "{3B0FCA37-F23E-40F5-AF46-64CD2C602D45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Web App", "02 Web App", "{5A7FD1C3-03E3-41F0-9EE2-2D55F785ABE5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Gest_ContactsDatabase", "Gest_ContactsDatabase\Gest_ContactsDatabase.sqlproj", "{EAEB1159-C46E-419F-BD4C-22CD80F82576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEB1159-C46E-419F-BD4C-22CD80F82576}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAEB1159-C46E-419F-BD4C-22CD80F82576} = {ABEE84B3-8238-49CA-9E73-3F770269618F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A2E57DF-A885-41A3-A159-7778BA16D05E}
+	EndGlobalSection
+EndGlobal

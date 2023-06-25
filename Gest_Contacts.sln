@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Web App", "02 Web App", 
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Gest_ContactsDatabase", "Gest_ContactsDatabase\Gest_ContactsDatabase.sqlproj", "{EAEB1159-C46E-419F-BD4C-22CD80F82576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gest_Contacts.Model.Dal", "Gest_Contacts.Model.Dal\Gest_Contacts.Model.Dal.csproj", "{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gest_Contacts.Model.Dal", "Gest_Contacts.Model.Dal\Gest_Contacts.Model.Dal.csproj", "{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.GestContactDenys", "Tools.GestContactDenys\Tools.GestContactDenys.csproj", "{1327500E-8CEB-4504-A259-B22B859C43D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1327500E-8CEB-4504-A259-B22B859C43D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1327500E-8CEB-4504-A259-B22B859C43D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1327500E-8CEB-4504-A259-B22B859C43D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1327500E-8CEB-4504-A259-B22B859C43D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EAEB1159-C46E-419F-BD4C-22CD80F82576} = {ABEE84B3-8238-49CA-9E73-3F770269618F}
 		{A9C7E11B-EBEF-4A0C-9F6D-E54BA3D9F69A} = {C9036FB0-EA94-4052-8982-51BFF463EF2B}
+		{1327500E-8CEB-4504-A259-B22B859C43D6} = {3B0FCA37-F23E-40F5-AF46-64CD2C602D45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A2E57DF-A885-41A3-A159-7778BA16D05E}
